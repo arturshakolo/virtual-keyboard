@@ -34,6 +34,8 @@ for (let i = 0; i < keysArr.length; ++i) {
 
   keyBtn.appendChild(key);
 
-  keyboard.appendChild(keyBtn);           
+  keyboard.appendChild(keyBtn);
 }
-console.log(`${keysArr[62].classList.add('long-btn')}`);
+
+
+keysArr[62].className = 'long-btn';
