@@ -85,3 +85,8 @@ html {
   border-radius: 40%;
   background-color: rgb(207, 232, 253);
 }
+
+.long-btn {
+  width: 80px; 
+  background-color: gray;
+}
