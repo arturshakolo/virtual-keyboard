@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit
+}
+
+.h1-titile {
+  font-size: 30px;
+  color: rgba(101,134,177,0.8);
+  -webkit-text-stroke: 1px rgba(114,177,101,0.8);
+  -webkit-text-fill-color: rgba(101,134,177,0.8);
+  text-align: center;
+}
+
+.container {
+  margin: 10px auto;
+  font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
+
+.text-area {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #444444;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px; 
+  border: 3px solid #d4d4d9d9;
+  border-radius: 5px;
+  padding: 5px;
+  /*padding-left: 0;
+  padding-bottom: 0;*/
+  background: #f3f3f3f3;
+  margin: 10px auto 10px;
+}
+
+.key {
+  width: 40px;
+  min-height: 40px;
+  border: 1px solid #111;
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all .3s;
+}
+
+.key:hover {
+  background-color: aliceblue;
+}
+
+.key:active {
+  border-radius: 50%;
+  background-color: rgb(207, 232, 253);
+}
+
+.keyboard > div {
+  width: 40px;
+  min-height: 40px;
+  border: 1px solid rgb(189, 184, 184);
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all .3s; 
+  margin: 1px;
+}
+
+.keyboard > div:hover {
+  background-color: aliceblue;
+}
+
+.keyboard > div:active {
+  border-radius: 40%;
+  background-color: rgb(207, 232, 253);
+}
+
+.long-btn {
+  width: 80px; 
+  background-color: #d7d7d7;
+}
+
+.keyboard > div:nth-child(14),
+.keyboard > div:nth-child(15),
+.keyboard > div:nth-child(28),
+.keyboard > div:nth-child(29),
+.keyboard > div:nth-child(41),
+.keyboard > div:nth-child(42),
+.keyboard > div:nth-child(54),
+.keyboard > div:nth-child(55),
+.keyboard > div:nth-child(56),
+.keyboard > div:nth-child(57),
+.keyboard > div:nth-child(59),
+.keyboard > div:nth-child(63) {
+  width: 80px; 
+  background-color: #d7d7d7; 
+}
+
+.keyboard > div:nth-child(58) {
+  width: 130px; 
+}
+
+.keyboard > div:nth-child(14):active,
+.keyboard > div:nth-child(15):active,
+.keyboard > div:nth-child(28):active,
+.keyboard > div:nth-child(29):active,
+.keyboard > div:nth-child(41):active,
+.keyboard > div:nth-child(42):active,
+.keyboard > div:nth-child(54):active,
+.keyboard > div:nth-child(55):active,
+.keyboard > div:nth-child(56):active,
+.keyboard > div:nth-child(57):active,
+.keyboard > div:nth-child(59):active,
+.keyboard > div:nth-child(63):active {
+  background-color: rgb(207, 232, 253);
+}
